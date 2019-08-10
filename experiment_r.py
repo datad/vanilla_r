@@ -43,10 +43,6 @@ logging.basicConfig(filename=loggingFileName, filemode='w', format=LOG_FORMAT, l
 #experiment 12
 #load summaries
 
-df_train.to_csv('data/save_train_data.csv', index=None)
-df_vali.to_csv('data/save_vali_data.csv', index=None)
-df_test.to_csv('data/save_test_data.csv', index=None)
-
 train_path = 'save_train_data.csv'
 dev_path = 'save_vali_data.csv'
 test_path = 'save_test_data.csv'
